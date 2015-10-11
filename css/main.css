@@ -1,0 +1,245 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	border: red 3px solid;
+}
+body input:required:valid,
+body textarea:required:valid {
+border: green 3px solid;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+	background-color: #243844;
+	color: #fff;
+	font-size: 16px;
+	min-width: 320px;
+	position: relative;
+}
+.hidden {
+	display: none;
+}
+.carousel img {
+	width: 100%;
+	height: auto;
+}
+.parallax {
+	background-attachment: fixed;
+	background-position: 50% 0;
+	position: relative;
+}
+.top_banner{
+	border-bottom: 2px solid #F5DAB5;
+	height: 70px;
+	padding: 2px 0;
+	background: linear-gradient(to top, #DB6700, #f0da36);
+}
+
+.top_banner img{
+	float: right;
+	width: 66px;
+	border-radius: 50%;
+	border: 2px solid #f0da36;
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+ul{
+	float: left;
+	list-style-type: none;
+}
+.mnu_top li{
+	display: inline-block;
+
+}
+.mnu_top a{
+	padding: 20px;
+	display: block;
+	color: #fff;
+	font-weight: bold; 
+	font-size: 20px;
+	text-transform: uppercase;
+	text-shadow: rgba(0, 0, 0, .6) 1px 2px;
+	-webkit-transition: all .25s;
+	-o-transition: all .25s;
+	transition: all .25s;
+}
+.mnu_top a:hover{
+	background-color: #F0DA36;
+	border-radius: 10px;
+}
+
+
+
+.button_mnu{
+	float: left;
+	background-color: transparent;
+	font-size: 40px;
+	border:medium none;
+	margin: 5px; 
+}
+.slider_container{
+	margin: 20px auto;
+	max-width: 100%;
+}
+.contacts {
+	font-size: 20px;
+	line-height: 60px;
+	text-align: center;
+}
+.contacts i {
+	font-size: 25px;
+	margin-right: 10px;
+}
+.soc_buttons a i{
+	font-size: 60px;
+	padding:5px; 
+	color: #DB6700; 
+}
+footer{
+	border-top: 2px solid #1D1D1D;
+	background: linear-gradient(to top, #272727,#090909);
+}
+.buttom_f{
+	width: 250px;
+	font-size: 20px;
+	padding: 10px;
+	margin:12px;
+	background: linear-gradient(to top, #E17D01,#090909);
+	border-radius: 40px;
+
+}
+.button{
+	background-color: #FFD03F;
+	color: #151515;
+	text-transform: uppercase;
+	border-radius: 3px;
+	display: block;
+	padding: 10px 15px;
+	font-weight: bold;
+	text-shadow: rgba(255, 255, 255, .6) 1px 2px;
+	box-shadow: 0px 5px 33px -8px #f05b02;
+	margin: 10px auto;
+	text-align: center;
+}
+content .button{
+	margin: 10px 60px;
+}
+
+.button:hover{
+	background-color: #EBAA03 ;
+}
+.button:active{
+	background-color: #DC6B02;
+}
+.hidden{
+	display: none;
+}
+.pop_form{
+	padding: 0 20px;
+}
+.pop_form input[type="text"]{
+	display: block;
+	line-height: 24px;
+	margin: 0 auto 12px;
+	width: 90%;
+	border: #999 3px solid;
+}
+.pop_form button{
+margin: 15px auto;
+}
+.pop_form h3{
+	margin: 10px auto 15px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+
+
+.circle {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	background: linear-gradient(to left, #243844,#243861);
+	
+}
+.circle:nth-child(1){
+	top:80px;
+	right: 20px;
+	background: linear-gradient(to top right, #243844,#243861);
+}
+.circle:nth-child(2){
+	width: 100px;
+	height: 100px;
+	top:280px;
+	right: 160px;
+	background: linear-gradient(to right, #243844,#243861);
+}
+.circle:nth-child(3){
+	width: 100px;
+	height: 100px;
+	top:100px;
+	left: 10px;
+	background: linear-gradient(to left bottom, #243844,#243861);
+}
+.circle:nth-child(4){
+	width: 200px;
+	height: 200px;
+	top:300px;
+	background: linear-gradient(to bottom, #243844,#243861);
+}
+.circle:nth-child(5){
+	width: 200px;
+	height: 200px;
+	top:370px;
+	right: 20px;
+	background: linear-gradient(to right, #243844,#243861);
+}
+.circle:nth-child(6){
+	width: 100px;
+	height: 100px;
+	top:480px;
+	right: 300px;
+	background: linear-gradient(to left , #243844,#243861);
+}
+.circle:nth-child(7){
+	width: 100px;
+	height: 100px;
+	top:75px;
+	right: 400px;
+	background: linear-gradient(to right, #243844,#243861);
+}
+.circle:nth-child(8){
+	width: 200px;
+	height: 200px;
+	top:275px;
+	right: 400px;
+	background: linear-gradient(to top, #243844,#243861);
+}
+
+
+
+
+
+
